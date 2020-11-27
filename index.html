@@ -12,8 +12,9 @@
     </head>    
 
     <body>
-        <h1 style="text-align:center">  Bienvenidos al mundo de Fufi  </h1>
 
+        <h1>  Bienvenidos al mundo de Fufi  </h1>
+        <script type="text/javascript" src="scripts/base.js"></script>
         <p style = "text-align:justify"><b>Pudu</b> es un género de cérvidos nativos de la 
             región andina de América del Sur, conocidos 
             comúnmente como pudúes o también venados, por su 
@@ -39,7 +40,7 @@ la Región de la Araucanía hasta la Región de Aysén.
 El pudú aparenta ser abundante solo en la Isla de Chiloé.
         </p>
         <div style="text-align: center;">
-            <img src="images/juan_fish.jpg" alt="juanito pez" title= "dibujo creado por Tomás Illanes" width = "300" height ="300" />
+            <img src="images/juan_fish.png" alt="juanito pez" title= "dibujo creado por Tomás Illanes" width = "300" height ="300" />
             <blockquote>Haciendo Conexiones como los <i>
                 pacos</i> de la policia.
             </blockquote>
@@ -63,9 +64,10 @@ El pudú aparenta ser abundante solo en la Isla de Chiloé.
 	    <table> 
 	    	<tr> 
 	    	<!-- <tr> "crea" una tupla, mientras que <td> le da valores a la tupla por columna-->
-	    		<td> Elemento #1 </td>
-	    		<td> Elemento #2 </td>
-	    		<td> Elemento #3 </td>
+	    		<h3>Seleciona los parámetros</h3>
+                <td> <button onclick="changeColor('red')">Rojo</button> </td>
+	    		<td> <button onclick="changeColor('blue')">Azul</button> </td>
+	    		<td> <button onclick="changeColor('white')">Blanco</button> </td>
 	    	</tr>
 	    	<tr>
 	    		<td> Elemento #4 </td>
@@ -76,7 +78,6 @@ El pudú aparenta ser abundante solo en la Isla de Chiloé.
 	    		<td> Elemento #7 </td>
 	    		<td> Elemento #8 </td>
 	    		<td> Elemento #9 </td>
-	    		<td> Elemento #10 </td>
 	    	</tr>
 	    </table>
     
